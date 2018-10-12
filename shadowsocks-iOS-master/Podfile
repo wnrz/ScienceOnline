@@ -1,0 +1,15 @@
+source 'http://47.98.36.186/wangning/shhcSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+#require_relative 'patch_static_framework'
+use_modular_headers!
+#use_frameworks!
+platform :ios, '8.0'
+def pods1
+#    pod 'GRKOpenSSLFramework'
+#    pod 'libsodium', '1.0.12'
+end
+target 'libshadowsocks' do
+    pods1
+end
+
+

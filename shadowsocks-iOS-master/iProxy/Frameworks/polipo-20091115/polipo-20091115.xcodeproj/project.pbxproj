@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		92B7C42B216F703B0035A74D /* log.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		92B7C42C216F703B0035A74D /* md5import.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5import.h; sourceTree = "<group>"; };
+		92B7C42D216F703B0035A74D /* forbidden.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = forbidden.c; sourceTree = "<group>"; };
+		92B7C42E216F703B0035A74D /* ftsimport.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ftsimport.c; sourceTree = "<group>"; };
+		92B7C42F216F703B0035A74D /* parse_time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parse_time.h; sourceTree = "<group>"; };
+		92B7C430216F703B0035A74D /* mingw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mingw.c; sourceTree = "<group>"; };
+		92B7C431216F703B0035A74D /* polipo.man */ = {isa = PBXFileReference; lastKnownFileType = text; path = polipo.man; sourceTree = "<group>"; };
+		92B7C432216F703B0035A74D /* diskcache.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = diskcache.c; sourceTree = "<group>"; };
+		92B7C433216F703B0035A74D /* atom.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = atom.c; sourceTree = "<group>"; };
+		92B7C434216F703B0035A74D /* client.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		92B7C435216F703B0035A74D /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		92B7C436216F703B0035A74D /* auth.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = auth.c; sourceTree = "<group>"; };
+		92B7C437216F703B0035A74D /* forbidden.sample */ = {isa = PBXFileReference; lastKnownFileType = text; path = forbidden.sample; sourceTree = "<group>"; };
+		92B7C438216F703B0035A74D /* http_parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = http_parse.h; sourceTree = "<group>"; };
+		92B7C439216F703B0035A74D /* object.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = object.c; sourceTree = "<group>"; };
+		92B7C43A216F703B0035A74D /* util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		92B7C43B216F703B0035A74D /* http.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		92B7C43C216F703B0035A74D /* README.Windows */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.Windows; sourceTree = "<group>"; };
+		92B7C43D216F703B0035A74D /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		92B7C43E216F703B0035A74D /* chunk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chunk.h; sourceTree = "<group>"; };
+		92B7C43F216F703B0035A74D /* io.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = io.c; sourceTree = "<group>"; };
+		92B7C440216F703B0035A74D /* event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		92B7C441216F703B0035A74D /* socks.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = socks.c; sourceTree = "<group>"; };
+		92B7C442216F703B0035A74D /* dns.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dns.c; sourceTree = "<group>"; };
+		92B7C443216F703B0035A74D /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		92B7C444216F703B0035A74D /* local.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = local.c; sourceTree = "<group>"; };
+		92B7C445216F703B0035A74D /* config.sample */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.sample; sourceTree = "<group>"; };
+		92B7C446216F703B0035A74D /* CHANGES */ = {isa = PBXFileReference; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		92B7C447216F703B0035A74D /* localindex.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = localindex.html; sourceTree = "<group>"; };
+		92B7C448216F703B0035A74D /* tunnel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tunnel.h; sourceTree = "<group>"; };
+		92B7C449216F703B0035A74D /* md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		92B7C44A216F703B0035A74D /* polipo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = polipo.h; sourceTree = "<group>"; };
+		92B7C44B216F703B0035A74D /* fts_compat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fts_compat.c; sourceTree = "<group>"; };
+		92B7C44C216F703B0035A74D /* polipo.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = polipo.texi; sourceTree = "<group>"; };
+		92B7C44D216F703B0035A74D /* server.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
+		92B7C44E216F703B0035A74D /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		92B7C44F216F703B0035A74D /* diskcache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diskcache.h; sourceTree = "<group>"; };
+		92B7C450216F703B0035A74D /* mingw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mingw.h; sourceTree = "<group>"; };
+		92B7C451216F703B0035A74D /* client.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		92B7C452216F703B0035A74D /* atom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = atom.h; sourceTree = "<group>"; };
+		92B7C453216F703B0035A74D /* parse_time.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parse_time.c; sourceTree = "<group>"; };
+		92B7C454216F703B0035A74D /* forbidden.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = forbidden.h; sourceTree = "<group>"; };
+		92B7C455216F703B0035A74D /* ftsimport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ftsimport.h; sourceTree = "<group>"; };
+		92B7C456216F703B0035A74D /* md5import.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md5import.c; sourceTree = "<group>"; };
+		92B7C457216F703B0035A74D /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		92B7C458216F703B0035A74D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		92B7C459216F703B0035A74D /* log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		92B7C45A216F703B0035A74D /* event.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = event.c; sourceTree = "<group>"; };
+		92B7C45B216F703B0035A74D /* io.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io.h; sourceTree = "<group>"; };
+		92B7C45C216F703B0035A74D /* chunk.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chunk.c; sourceTree = "<group>"; };
+		92B7C45D216F703B0035A74D /* config.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
+		92B7C45E216F703B0035A74D /* util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		92B7C45F216F703B0035A74D /* http.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http.c; sourceTree = "<group>"; };
+		92B7C460216F703B0035A74D /* object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		92B7C461216F703B0035A74D /* http_parse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http_parse.c; sourceTree = "<group>"; };
+		92B7C462216F703B0035A74D /* auth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = auth.h; sourceTree = "<group>"; };
+		92B7C463216F703B0035A74D /* md5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		92B7C464216F703B0035A74D /* tunnel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tunnel.c; sourceTree = "<group>"; };
+		92B7C465216F703B0035A74D /* dns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dns.h; sourceTree = "<group>"; };
+		92B7C466216F703B0035A74D /* socks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = socks.h; sourceTree = "<group>"; };
+		92B7C467216F703B0035A74D /* local.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = local.h; sourceTree = "<group>"; };
+		92B7C468216F703B0035A74D /* server.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = server.h; sourceTree = "<group>"; };
+		92B7C469216F703B0035A74D /* fts_compat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fts_compat.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		92B7C425216F703B0035A74D = {
+			isa = PBXGroup;
+			children = (
+				92B7C42B216F703B0035A74D /* log.c */,
+				92B7C42C216F703B0035A74D /* md5import.h */,
+				92B7C42D216F703B0035A74D /* forbidden.c */,
+				92B7C42E216F703B0035A74D /* ftsimport.c */,
+				92B7C42F216F703B0035A74D /* parse_time.h */,
+				92B7C430216F703B0035A74D /* mingw.c */,
+				92B7C431216F703B0035A74D /* polipo.man */,
+				92B7C432216F703B0035A74D /* diskcache.c */,
+				92B7C433216F703B0035A74D /* atom.c */,
+				92B7C434216F703B0035A74D /* client.h */,
+				92B7C435216F703B0035A74D /* INSTALL */,
+				92B7C436216F703B0035A74D /* auth.c */,
+				92B7C437216F703B0035A74D /* forbidden.sample */,
+				92B7C438216F703B0035A74D /* http_parse.h */,
+				92B7C439216F703B0035A74D /* object.c */,
+				92B7C43A216F703B0035A74D /* util.c */,
+				92B7C43B216F703B0035A74D /* http.h */,
+				92B7C43C216F703B0035A74D /* README.Windows */,
+				92B7C43D216F703B0035A74D /* config.h */,
+				92B7C43E216F703B0035A74D /* chunk.h */,
+				92B7C43F216F703B0035A74D /* io.c */,
+				92B7C440216F703B0035A74D /* event.h */,
+				92B7C441216F703B0035A74D /* socks.c */,
+				92B7C442216F703B0035A74D /* dns.c */,
+				92B7C443216F703B0035A74D /* Makefile */,
+				92B7C444216F703B0035A74D /* local.c */,
+				92B7C445216F703B0035A74D /* config.sample */,
+				92B7C446216F703B0035A74D /* CHANGES */,
+				92B7C447216F703B0035A74D /* localindex.html */,
+				92B7C448216F703B0035A74D /* tunnel.h */,
+				92B7C449216F703B0035A74D /* md5.h */,
+				92B7C44A216F703B0035A74D /* polipo.h */,
+				92B7C44B216F703B0035A74D /* fts_compat.c */,
+				92B7C44C216F703B0035A74D /* polipo.texi */,
+				92B7C44D216F703B0035A74D /* server.c */,
+				92B7C44E216F703B0035A74D /* README */,
+				92B7C44F216F703B0035A74D /* diskcache.h */,
+				92B7C450216F703B0035A74D /* mingw.h */,
+				92B7C451216F703B0035A74D /* client.c */,
+				92B7C452216F703B0035A74D /* atom.h */,
+				92B7C453216F703B0035A74D /* parse_time.c */,
+				92B7C454216F703B0035A74D /* forbidden.h */,
+				92B7C455216F703B0035A74D /* ftsimport.h */,
+				92B7C456216F703B0035A74D /* md5import.c */,
+				92B7C457216F703B0035A74D /* COPYING */,
+				92B7C458216F703B0035A74D /* main.c */,
+				92B7C459216F703B0035A74D /* log.h */,
+				92B7C45A216F703B0035A74D /* event.c */,
+				92B7C45B216F703B0035A74D /* io.h */,
+				92B7C45C216F703B0035A74D /* chunk.c */,
+				92B7C45D216F703B0035A74D /* config.c */,
+				92B7C45E216F703B0035A74D /* util.h */,
+				92B7C45F216F703B0035A74D /* http.c */,
+				92B7C460216F703B0035A74D /* object.h */,
+				92B7C461216F703B0035A74D /* http_parse.c */,
+				92B7C462216F703B0035A74D /* auth.h */,
+				92B7C463216F703B0035A74D /* md5.c */,
+				92B7C464216F703B0035A74D /* tunnel.c */,
+				92B7C465216F703B0035A74D /* dns.h */,
+				92B7C466216F703B0035A74D /* socks.h */,
+				92B7C467216F703B0035A74D /* local.h */,
+				92B7C468216F703B0035A74D /* server.h */,
+				92B7C469216F703B0035A74D /* fts_compat.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		92B7C42A216F703B0035A74D /* polipo-20091115 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 92B7C46A216F703B0035A74D /* Build configuration list for PBXLegacyTarget "polipo-20091115" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/wangning/Downloads/shadowsocks-iOS-master/polipo-20091115";
+			dependencies = (
+			);
+			name = "polipo-20091115";
+			passBuildSettingsInEnvironment = 1;
+			productName = "polipo-20091115";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		92B7C426216F703B0035A74D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 92B7C429216F703B0035A74D /* Build configuration list for PBXProject "polipo-20091115" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92B7C425216F703B0035A74D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92B7C42A216F703B0035A74D /* polipo-20091115 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		92B7C427216F703B0035A74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		92B7C428216F703B0035A74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		92B7C46B216F703B0035A74D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "polipo-20091115";
+			};
+			name = Debug;
+		};
+		92B7C46C216F703B0035A74D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "polipo-20091115";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92B7C429216F703B0035A74D /* Build configuration list for PBXProject "polipo-20091115" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B7C427216F703B0035A74D /* Debug */,
+				92B7C428216F703B0035A74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92B7C46A216F703B0035A74D /* Build configuration list for PBXLegacyTarget "polipo-20091115" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92B7C46B216F703B0035A74D /* Debug */,
+				92B7C46C216F703B0035A74D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92B7C426216F703B0035A74D /* Project object */;
+}
